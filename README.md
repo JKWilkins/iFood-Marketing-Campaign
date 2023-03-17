@@ -28,6 +28,10 @@ As can be seen, on-respodners grwatly out number responders, and the trend of lo
 
 
 
+#### Correlation Heatmap
+<img src="images/CorrHeatmap.png" width = "400">  
+
+This Correlation Heatmap shows the presence of multicollinearity between features of the data, with Red and Yellow shoing positive correlation and Blue showing negative correlation. This level of multicollinearity is concerning for many learning algorithms, hence why I chose a Random Forest. Robustness from bootstrap and feature sampling, plus cross validation, will minimze the loss of precision introduced by the multicollinearity.
 
 Lastly, I use random forest classification to predict whether or not a customer has responded to the latest marketing campaign and tune the model's parameters using both the visual "elbow technique" to balance bias-variance tradeoff and with a randomized grid search.
 
