@@ -11,7 +11,7 @@ I then use Seaborn for visualizations to explore the relationships in demographi
 In this 2x2 facet, the scatterplots display the correlations between Income and Total Expenditure (MntTotal), Total Number of Purchases (NumPurchasesTotal), Num of Monthly Web Visits, and a violin plot showing the Income distribution per level of education. Each data point is color coded to the response variable, whether or not the customer accepted the recent marketing promotion. 
 
 #### 2x2 facet of Scatterplots featuring Income on X axis
-<img src="images/IncomeCorrelations.png" width = "800">  
+<img src="images/IncomeCorrelations.png" width = "600">  
 
 
 In the top left scatter plot, it is evident that Income and Total Expenditure have a strong positive correlation. It also appears that those labled as promotion responders (orange) outspent customers of similar income levels.  
@@ -20,7 +20,7 @@ The bottom left plot interesting shows a negative correlation between income and
 Finally the Bottom right plot shows a violin plot betwene Income and levels of Education. The violin plot is interesting because it shows the min, max, mean, and quartiles while also displaying the distributions for the bivariate response variable. From the plot we can see a correlation between higher education and income, but also see that promotion responders trend towards having higher incomes than non-responders.  
 
 #### Violin Plot of Total Expenditure (MntTotal) grouped by Children and Response
-<img src="images/Income_Response_ChildrenHome_Violinplot.png.png" width = "800">  
+<img src="images/Income_Response_ChildrenHome_Violinplot.png" width = "600">  
 
 This violin plot acts like a box and whisker plot, showing min, max, mean, and quartiles, while also showing the distribution of the numerical Income data.
 In addition, the distributions are grouped by the promotional Repsonse variable and the presence of Children in the home with the size of the distribution representing the portion of the overall data being represented.  
